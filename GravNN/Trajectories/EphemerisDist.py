@@ -1,6 +1,6 @@
 import os
 
-import spicepy as spice
+import spiceypy as spice
 
 from GravNN.Trajectories.TrajectoryBase import TrajectoryBase
 

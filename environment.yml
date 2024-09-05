@@ -1,6 +1,7 @@
-name: research
+name: GravNN_env
 channels:
   - defaults
+  - conda-forge
 dependencies:
   - matplotlib
   - numba
@@ -14,6 +15,8 @@ dependencies:
   - rtree
   - pooch
   - pip
+  - pytest
+  - spiceypy
   - seaborn
   - sphinx
   - sphinx_rtd_theme
@@ -21,7 +24,8 @@ dependencies:
   - pip:
       - numpy==1.23.0
       - trimesh==3.9.31
-      - sigfig  
+      - sigfig
       - tensorflow_model_optimization
       - spicepy
       - sphinx-gallery
+      - -e .
